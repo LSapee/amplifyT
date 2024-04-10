@@ -4,9 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>
-        Amplify test를 할꺼야
-      </h1>
+        <input type={text}/>
+        <button> 로그인 </button>
     </div>
   );
 }
