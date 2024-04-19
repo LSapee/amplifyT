@@ -11,7 +11,7 @@ function App() {
           {({ signOut, user }) => (
               <main>
                   <h1>Hello {user.username}</h1>
-                  <button onClick={signOut}>Sign out</button>
+                  <button onClick={signOut}>로그아웃</button>
               </main>
           )}
       </Authenticator>
